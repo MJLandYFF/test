@@ -1,0 +1,165 @@
+﻿body,html
+{
+	margin:0;
+	height:100%;
+	width:100%;
+	overflow:hidden;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+/* button */
+.mini-button
+{
+    font-size:10px;
+    margin-right:5px;
+}
+.mini-button-text
+{
+    padding:2px 10px;    
+}
+/* gray */
+.mini-button.gray
+{    
+    background: #abbac3;
+    color:#fff; 
+    border:3px solid #abbac3;     
+}
+body a:hover.mini-button.gray
+{
+    background: #8b9aa3;
+    border:3px solid #abbac3; 
+}
+body .mini-button-pressed.gray, body a:hover.mini-button-pressed.gray,
+body .mini-button-checked.gray, body a:hover.mini-button-checked.gray,
+body a.mini-button-popup.gray, body a:hover.mini-button-popup.gray
+{
+    background: #8b9aa3;
+    border:3px solid #abbac3;
+    color:#fff; 
+}
+/* blue */
+.mini-button.blue
+{    
+    background: #428bca;
+    color:#fff; 
+    border:3px solid #428bca;     
+}
+body a:hover.mini-button.blue
+{
+    background: #1b6aaa;
+    border:3px solid #428bca; 
+}
+body .mini-button-pressed.blue, body a:hover.mini-button-pressed.blue,
+body .mini-button-checked.blue, body a:hover.mini-button-checked.blue,
+body a.mini-button-popup.blue, body a:hover.mini-button-popup.blue
+{
+    background: #1b6aaa;
+    border:3px solid #428bca;
+    color:#fff; 
+}
+/* skyBlue */
+.mini-button.skyBlue
+{    
+    background: #6fb3e0;
+    color:#fff; 
+    border:3px solid #6fb3e0;     
+}
+body a:hover.mini-button.skyBlue
+{
+    background: #4f99c6;
+    border:3px solid #6fb3e0; 
+}
+body .mini-button-pressed.skyBlue, body a:hover.mini-button-pressed.skyBlue,
+body .mini-button-checked.skyBlue, body a:hover.mini-button-checked.skyBlue,
+body a.mini-button-popup.skyBlue, body a:hover.mini-button-popup.skyBlue
+{
+    background: #4f99c6;
+    border:3px solid #6fb3e0;
+    color:#fff; 
+}
+/* green */
+.mini-button.green
+{    
+    background: #87b87f;
+    color:#fff; 
+    border:3px solid #87b87f;     
+}
+body a:hover.mini-button.green
+{
+    background: #629b58;
+    border:3px solid #87b87f; 
+}
+body .mini-button-pressed.green, body a:hover.mini-button-pressed.green,
+body .mini-button-checked.green, body a:hover.mini-button-checked.green,
+body a.mini-button-popup.green, body a:hover.mini-button-popup.green
+{
+    background: #629b58;
+    border:3px solid #87b87f;
+    color:#fff; 
+}
+/* yellow */
+.mini-button.yellow
+{    
+    background: #ffb752;
+    color:#fff; 
+    border:3px solid #ffb752;     
+}
+body a:hover.mini-button.yellow
+{
+    background: #e59729;
+    border:3px solid #ffb752; 
+}
+body .mini-button-pressed.yellow, body a:hover.mini-button-pressed.yellow,
+body .mini-button-checked.yellow, body a:hover.mini-button-checked.yellow,
+body a.mini-button-popup.yellow, body a:hover.mini-button-popup.yellow
+{
+    background: #e59729;
+    border:3px solid #ffb752;
+    color:#fff; 
+}
+/* red */
+.mini-button.red
+{    
+    background: #d15b47;
+    color:#fff; 
+    border:3px solid #d15b47;     
+}
+body a:hover.mini-button.red
+{
+    background: #b74635;
+    border:3px solid #d15b47; 
+}
+body .mini-button-pressed.red, body a:hover.mini-button-pressed.red,
+body .mini-button-checked.red, body a:hover.mini-button-checked.red,
+body a.mini-button-popup.red, body a:hover.mini-button-popup.red
+{
+    background: #b74635;
+    border:3px solid #d15b47;
+    color:#fff; 
+}
+/* black */
+.mini-button.black
+{    
+    background: #555;
+    color:#fff; 
+    border:3px solid #555;     
+}
+body a:hover.mini-button.black
+{
+    background: #303030;
+    border:3px solid #555; 
+}
+body .mini-button-pressed.black, body a:hover.mini-button-pressed.black,
+body .mini-button-checked.black, body a:hover.mini-button-checked.black,
+body a.mini-button-popup.black, body a:hover.mini-button-popup.black
+{
+    background: #303030;
+    border:3px solid #555;
+    color:#fff; 
+}
+/* login */
+.mini-panel-header
+{
+    height:36px;
+    
+}
+

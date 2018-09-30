@@ -1,0 +1,18 @@
+﻿[
+	{id:"1",text:"面板一",iconCls:"fa-tag",
+		children:[
+				{id:"1-1",text:"面板一中的内容"}
+		]
+	},
+	{id:"2",text:"面板二",iconCls:"fa-tag",
+		children:[
+				{id:"2-1",text:"面板二中的内容"}
+		]
+	},
+	{id:"3",text:"面板三",iconCls:"fa-tag",
+		children:[
+				{id:"3-1",text:"面板三中的内容"}
+		]
+	}
+	
+]

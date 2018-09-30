@@ -1,0 +1,64 @@
+﻿/*  tabs  */
+.mini-tabs-header-top .mini-tab-active
+{
+	border-top:solid 2px #4c8fbd;
+	padding-top:7px;	
+}
+.mini-tab
+{
+	padding:7px 10px;	
+}
+.mini-tab-text
+{
+	font-weight:normal;
+	font-size:13px;	
+}
+.mini-tab-active .mini-tab-text
+{
+    font-weight:bold;    
+}
+/*  tree  */
+.mini-tree-node-ecicon
+{
+	position:absolute;
+	right:0;
+		
+}
+.mini-grid .mini-grid-rightCell {
+    border: 1px solid #e5e5e5;
+    height: 29px;
+}
+.mini-tree-indent
+{
+		
+}
+/* button */
+.mini-button-iconBottom .mini-button-icon
+{
+    left: 50%;
+    margin-left: -9px;
+    top: 20px;
+    margin-top: auto;    
+}
+.mini-button-iconBottom .mini-button-icon-text
+{
+    padding-bottom:22px; 
+    padding-left:8px;   
+}
+/* panel */
+.mini-panel-header-inner
+{
+    padding-top:10px;
+}
+.mini-panel-header
+{
+    font-size:13px;    
+}
+.mini-window .mini-tools .mini-tools-collapse
+{
+    background:url(../../images/panel_arrow_up.png) no-repeat 0px 3px;    
+}
+.mini-window .mini-outlookbar .mini-outlookbar-expand .mini-tools-collapse
+{
+	background:url(../../images/panel_arrow_down.png) no-repeat 0px 3px; 
+}

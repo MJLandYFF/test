@@ -1,0 +1,135 @@
+﻿/*  tabs  */
+.mini-tabs-header-top .mini-tab-active
+{
+	border-top:solid 2px #4c8fbd;
+	padding-top:7px;	
+}
+.mini-tab
+{
+	padding:7px 10px;	
+}
+.mini-tab-text
+{
+	font-weight:bold;
+	font-size:13px;	
+}
+/*  tree  */
+.mini-tree-node-ecicon
+{
+	position:absolute;
+	right:0;
+		
+}
+.mini-grid .mini-grid-rightCell {
+    border: 1px solid #e5e5e5;
+    height: 29px;
+}
+.mini-tree-indent
+{
+		
+}
+/* button */
+.mini-button,body a:hover.mini-button,
+body .mini-button-pressed, body a:hover.mini-button-pressed,
+body .mini-button-checked, body a:hover.mini-button-checked,
+body a.mini-button-popup, body a:hover.mini-button-popup
+{
+    padding-left:5px;
+    padding-right:5px;    
+}
+
+.mini-button-text
+{
+    padding:3px 9px; 
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 13px;   
+}
+.mini-button-icon
+{
+    width:21px;    
+}
+.small .mini-button-text
+{
+    padding:2px 7px;    
+}
+.bigger .mini-button-text
+{
+    padding:7px 19px;
+    font-weight:bold;    
+}
+.big .mini-button-text
+{
+    padding:10px 21px;
+    font-weight:bold; 
+    font-size:14px;   
+}
+.mini-button-iconBottom .mini-button-icon
+{
+    left: 50%;
+    margin-left: -9px;
+    top: 20px;
+    margin-top: auto;    
+}
+.mini-button-iconBottom .mini-button-icon-text
+{
+    padding-bottom:22px; 
+    padding-left:21px;   
+}
+.mini-button-iconBottom.big .mini-button-icon
+{
+    left: 50%;
+    margin-left: -9px;
+    top: 27px;
+    margin-top: auto;    
+}
+.mini-button-iconBottom.big .mini-button-icon-text
+{
+    padding-bottom:22px; 
+    padding-left:21px;   
+}
+.mini-button-iconTop.big .mini-button-icon
+{
+    top:-1px;
+}
+.mini-button-iconTop.big .mini-button-icon-text
+{
+    padding-top:22px;
+}
+.mini-button-iconLeft.big .mini-button-icon
+{
+    left:15px;
+}
+.mini-button-iconLeft.big .mini-button-icon-text
+{
+    padding-left:35px;
+}
+.mini-button-iconRight.big .mini-button-icon
+{
+    right:15px;
+}
+.mini-button-iconRight.big .mini-button-icon-text
+{
+    padding-right:35px;
+}
+
+.mini-menuitem-inner
+{
+    padding-right:28px;    
+}
+/* panel */
+.mini-panel-header-inner
+{
+    padding-top:10px;
+}
+.mini-panel-header
+{
+    font-size:13px;    
+}
+.mini-window .mini-tools .mini-tools-collapse
+{
+    background:url(../../images/panel_arrow_up.png) no-repeat 0px 3px;    
+}
+.mini-window .mini-outlookbar .mini-outlookbar-expand .mini-tools-collapse
+{
+	background:url(../../images/panel_arrow_down.png) no-repeat 0px 3px; 
+}

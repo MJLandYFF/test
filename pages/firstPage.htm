@@ -1,0 +1,163 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+	<script src="../scripts/boot.js" type="text/javascript"></script>
+	<link href="../css/core.css" rel="stylesheet" type="text/css" />
+    <link href="../css/firstpage.css" rel="stylesheet" type="text/css" />
+    <link href="../scripts/miniui/res/font-awesome/css/font-awesome.min.css" rel="stylesheet"
+        type="text/css" />
+	<style>
+/* title */	    
+	.title{height:54px;margin:0 0 10px 10px;border-bottom:1px dotted #e2e2e2;}
+	h2{font-size: 24px;font-weight: lighter;color: #2679b5;margin:0;padding:19px 0 0 4px;}
+	h2 small{font-size: 14px;font-weight: normal;color: #8089a0;padding-left:23px;margin:1px 6px 0 6px;vertical-align:middle;position:absolute;top:20px;left:43px;}
+	h2 small i{font: normal normal normal 16px/1 FontAwesome!important;padding:0 5px 0 5px;position:relative;top:-2px;left:-2px;}
+	
+/* content */
+	.content{overflow:auto;height:100%;width:100%;}
+	.content table{ width:100%;}
+	.content table td{margin-right:10px;}
+	pre{font-style: italic;}
+	
+/* 手风琴 */
+	.accordion1_title,.accordion2_title{color:#478fca;font-size: 20px;font-weight:bold;height:50px;line-height:60px;}
+	.accordion1_title i,.accordion2_title i{font-size:16px;	}
+	.accordion2_title{color:#ff892a;}
+	
+/* 按钮 登录 */
+	.buttons_title,.login_panel_title{color:#69aa46;font-size: 20px;font-weight:bold;height:50px;line-height:60px;}
+	.buttons_title i,.login_panel_title i{font-size:16px;    }
+	.login_panel_title{color:#892e65;}
+	.login_complete{position:absolute;}
+	</style>
+</head>
+<body>
+<div class="title">
+	<h2>首页<small><i class="fa fa-angle-double-right" aria-hidden="true"></i> 基本元素展示</small></h2>
+	
+</div>
+<div class="content">
+	<table >
+		<tr>
+			<td class="tabs_top" style="width:50%;">
+			<div id="tabs1" class="mini-tabs" activeIndex="0" style="width:460px;height:145px;" plain="false">
+				<div title="标签一" showCloseButton="false" iconCls="fa-home" >
+				1. 从官网示例源代码中拷贝 /res/themes/bootstrap_pure/ 目录到本地项目中的相同位置；<br />
+                2. Web.config中增加配置项：CustomTheme="bootstrap_pure"；
+                   <pre>< FineUIPro DebugMode="false" CustomTheme="bootstrap_pure" /></pre>
+                3. 完成。
+				</div>
+				<div title="标签二" showCloseButton="false" >
+				第二个标签的内容
+				</div>
+				<div title="标签三" showCloseButton="false" enabled="true">
+				第三个标签的内容
+				</div>
+			</div>
+			</td>
+			<td class="tabs_bottom" style="width:50%;">
+				<div id="tabs2" class="mini-tabs" activeIndex="0" style="width:460px;height:145px;" plain="false" tabPosition="bottom">
+					<div title="标签一" showCloseButton="false" iconCls="fa-home" >
+					第一个标签的内容
+					</div>
+					<div title="标签二" showCloseButton="false" >
+					第二个标签的内容
+					</div>
+					<div title="标签三" showCloseButton="false" enabled="true">
+					第三个标签的内容
+					</div>
+				</div>	
+			</td>
+		</tr>
+		<tr>
+			<td class="accordion1" style="height:250px;vertical-align:top;">
+				<div class="accordion1_title"><i class="fa fa-align-justify" aria-hidden="true"></i> 手风琴控件</div>
+				<div class="mini-outlookbar " activeIndex="1" style="width:95%;height:200px;" autoCollapse="true">
+					<div title="面板一" iconCls="fa-tag" headerStyle="color:#892e65;">            
+					面板一中的内容
+					</div>
+					<div title="面板二" iconCls="fa-tag" headerStyle="color:#2e8965;">
+					面板二中的内容
+					</div>
+					<div title="面板三" iconCls="fa-tag" headerStyle="color:#f2bb46;">
+					面板三中的内容
+					</div>
+				</div>
+			</td>
+			<td class="accordion2" style="vertical-align:top;">
+				<div class="accordion2_title"><i class="fa fa-align-justify" aria-hidden="true"></i> 手风琴控件</div>
+				<div class="mini-outlookbar " activeIndex="0" style="width:95%;height:200px;" autoCollapse="true">
+					<div title="面板一" iconCls="fa-tag" headerStyle="color:#892e65;">            
+					面板一中的内容
+					</div>
+					<div title="面板二" iconCls="fa-tag" headerStyle="color:#2e8965;">
+					面板二中的内容
+					</div>
+					<div title="面板三" iconCls="fa-tag" headerStyle="color:#f2bb46;">
+					面板三中的内容
+					</div>
+				</div>
+			</td>
+		</tr>
+		<tr>
+			<td class="buttons" style="height:300px;vertical-align:top;">
+				<div class="buttons_title"><i class="fa fa-bold" aria-hidden="true"></i> 按钮控件</div>
+				<div class="buttons_warp">
+					<a class="mini-button gray" iconCls="fa-home">图标在左侧</a>
+					<a class="mini-button mini-button-iconRight blue" iconCls="fa-car">图标在右侧</a><br /><br />
+					<a class="mini-button mini-button-iconTop skyBlue" iconCls="fa-camera">图标在上面</a>
+					<a class="mini-button mini-button-iconBottom green" iconCls="fa-phone">图标在下面</a><br /><br />
+					<a class="mini-button yellow" iconCls="fa-volume-up" onclick="switchIcon()">点击修改图标（在三个图标之间切换）</a><br /><br />
+					<a class="mini-button red" iconCls="fa-android"></a>
+					<a class="mini-button black" iconCls="fa-apple"></a>
+				</div>
+			</td>
+			<td class="login_panel" style="height:250px;vertical-align:top;">
+				<div class="login_panel_title"><i class="fa fa-user" aria-hidden="true"></i> 登录面板</div>
+                <iframe id="loginframe" frameborder="0" name="main" style="width:100%;height:100%;" border="0">
+                    
+                </iframe>
+                
+
+				
+			</td>
+		</tr>
+	</table>
+</div>
+</body>
+</html>
+<script>
+    mini.parse();
+function onBeforeExpand1(e) {
+	var tree = e.sender;
+	var nowNode = e.node;
+	var root = tree.getRootNode();
+
+	tree.cascadeChild(root, function (node) {
+		if (tree.isExpandedNode(node)) {
+			if (node != nowNode && !tree.isAncestor(node, nowNode)) {
+				tree.collapseNode(node, true);
+			}
+		}
+	});
+}
+
+function onBeforeExpand2(e) {
+	var tree = e.sender;
+	var nowNode = e.node;
+	var root = tree.getRootNode();
+
+	tree.cascadeChild(root, function (node) {
+		if (tree.isExpandedNode(node)) {
+			if (node != nowNode && !tree.isAncestor(node, nowNode)) {
+				tree.collapseNode(node, true);
+			}
+		}
+	});
+}
+
+var iframe = document.getElementById("loginframe");
+iframe.src = "login.htm";
+</script>
